@@ -1,0 +1,78 @@
+
+
+#logo
+{ 
+  height: 50px;
+  width: 150px;
+} 
+
+
+#body
+{  
+  padding: 50px;
+  font-family: 'Raleway', sans-serif; 
+}
+
+#nav
+{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav
+{
+  margin: 15px;
+}
+
+#section1
+{ 
+   display: flex;
+}
+
+#fond1
+{ 
+  background-color:#F2F2F2;
+  margin-right: 15px;
+  flex: 2;
+}
+
+#fond2
+{ 
+  background-color:#F2F2F2;
+  margin-right: 15px;
+}
+
+.heberpop
+{
+  padding: 15px;
+  margin-left: 15px;
+  
+}
+
+
+
+#footer
+{ 
+  display: flex;
+  justify-content: space-around;
+  background-color:#F2F2F2;
+}
+
+.apropos
+{
+  
+}
+
+.fas /*fa-money-bill-wave, .fas fa-child, .fas fa-heart, .fas fa-dog */ 
+{
+  color: blue; 
+  margin: 5px;
+  margin-left: 30px;
+}
+
+#gps
+{
+ background-color:#F2F2F2; 
+}
+
+
