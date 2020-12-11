@@ -27,6 +27,7 @@
 #section1
 { 
    display: flex;
+  
 }
 
 #fond1
@@ -34,6 +35,8 @@
   background-color:#F2F2F2;
   margin-right: 15px;
   flex: 2;
+  
+  
 }
 
 #fond2
@@ -54,7 +57,7 @@
 #footer
 { 
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   background-color:#F2F2F2;
 }
 
@@ -68,11 +71,30 @@
   color: blue; 
   margin: 5px;
   margin-left: 30px;
+  background-color: #F2F2F2; 
 }
 
 #gps
 {
  background-color:#F2F2F2; 
+ margin-right: 15px;
 }
 
+#form
+{
+  margin: 30px;
+}
 
+#articlesh
+{
+  display: flex;
+  justify-content: space-around;
+}
+
+#articlesa
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}

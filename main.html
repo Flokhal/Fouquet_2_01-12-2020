@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-  <meta charset="utf-8" />
-  <title>P2_Fouquet_Florent</title>
-  <meta name="description" content="Projet 2" />
-  <link rel="stylesheet" href="style.css" />
-  <script src="https://kit.fontawesome.com/4b2fbe84b4.js" crossorigin="anonymous"></script>
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;400&display=swap" rel="stylesheet">
-</head>
+  <head>
+    <meta charset="utf-8" />
+    <title>P2_Fouquet_Florent</title>
+    <meta name="description" content="Projet 2" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/4b2fbe84b4.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;400&display=swap"           rel="stylesheet">
+  </head>
 
 <body>
     <div id="body">
@@ -26,13 +26,13 @@
         <h1> Trouvez votre hébergement pour des vacances de rêve </h1>
         <p>En plein centre ville ou en pleine nature</p>
           
-        <form method="post" action="traitement.php">
+        <form method="post" action="traitement.php" >
          <p>
            <label id="gps">
              <i class="fas fa-map-marker-alt"></i>        
            </label> 
            <input type="text" name="ville" />       
-           <a href="#">Rechercher</a>      
+           <a href="#"  id="form">Rechercher </a>      
          </p>            
         </form>    
         
@@ -49,8 +49,70 @@
   
      <section id="hebergements"> 
        <div id="section1">
-         <div id="fond1"> <h2 class="heberpop"> Hébergement à marseille </h2> </div>
-         <div id="fond2"> <h2 class="heberpop"> Les plus populaires </h2> </div>    
+         
+         <div id="fond1"> <h2 class="heberpop"> Hébergement à marseille </h2>
+          
+         
+         <div id="articlesh"> 
+           <article class="articles"> 
+             <img src="marcus-loke-WQJvWU_HZFo-unsplash.jpg" class="image" alt="photo"/>
+             <p></p>
+           </article>
+           
+           <article class="articles"> 
+             <img src="logo.png" class="image" alt="photo"/>
+             
+           </article>
+           
+           <article class="articles"> 
+             <img src="logo.png" class="image" alt="photo"/>
+             
+           </article>
+           
+           <article class="articles">
+             <img src="logo.png" class="image" alt="photo"/>
+             
+           </article>
+           
+           <article class="articles">
+             <img src="logo.png" class="image" alt="photo"/>
+             
+           </article>
+           
+           <article class="articles">
+             <img src="logo.png" class="image" alt="photo"/>
+             
+           </article>
+         
+         
+             </div>
+           </div> 
+         
+          <div id="fond2"> <h2 class="heberpop"> Les plus populaires </h2> 
+         
+         <div id="articlesa"> 
+           <article class="articles"> 
+             <img src="logo.png" class="image" alt="photo"/>
+             
+           </article>
+           
+           <article class="articles"> 
+             <img src="logo.png" class="image" alt="photo"/>
+             
+           </article>
+           
+           <article class="articles"> 
+             <img src="logo.png" class="image" alt="photo"/>
+             
+           </article>
+         
+         </div>
+           
+       
+         </div>
+         
+         
+           
        </div>
      </section>
 
@@ -70,24 +132,24 @@
         
        <div id="footer">
          
-         <u>
+         <ul>
             <li><p class="apropos">A Propos</li></p>
             <li><a href="#">Fonctionnement du site</a></li> 
             <li><a href="#">Conditions générales de vente</a></li>  
             <li><a href="#">Données et confidentialité</a></li>  
-         </u>    
+         </ul>    
     
-         <u> 
+         <ul> 
             <li><p class="apropos">Nos Hébergements</p></li>
             <li><a href="#">Charte qualité</a></li>
             <li><a href="#">Soumettre votre hotel</a></li>
-         </u>     
+         </ul>     
             
-         <u>
+         <ul>
             <li><p class="apropos">Assistance</p></li>
             <li><a href="#">Centre d'aide</a></li>
             <li><a href="#">Nous contacter</a></li>
-         </u>
+         </ul>
            
        </div>
      </footer>
