@@ -765,7 +765,7 @@ a:link, a:visited
   {
     color: white;
     background-color: #0065FC;
-    padding-top: 17px;
+    padding-top: 15px;
     padding-bottom: 17px;
     border-radius: 10px;
     padding-left: 20px;
@@ -775,7 +775,7 @@ a:link, a:visited
     #barre
   {
  
-    margin-right: -10px;
+    margin-right: -12px;
   }
 }
 
@@ -791,8 +791,6 @@ a:link, a:visited
   {
     display: flex;
     flex-wrap: wrap-reverse;
-    
-
   }
 
   #body
@@ -812,7 +810,6 @@ a:link, a:visited
     display: flex;
     flex-direction: column;
     align-items: center;
-    
   }
 
   #inscrire
@@ -823,7 +820,6 @@ a:link, a:visited
     font-weight: bold;
     color: blue;
     font-size: 25px;
-
   }
 
   .nav1
@@ -878,7 +874,6 @@ a:link, a:visited
     font-size: 20px;
     font-weight: bolder;
     align-items: center;
-
   }
 
 
