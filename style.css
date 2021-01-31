@@ -1,4 +1,4 @@
-/*HTML5 display-role reset for older browsers*/
+
 
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -139,7 +139,7 @@ a:link, a:visited
   width: 300px;
 }
 
-#form /* rechercher */
+#form
 {
   color: white;
   background-color: #0065FC;
@@ -441,6 +441,8 @@ a:link, a:visited
 #footer a
 {
   color: black;
+  display: flex;
+  margin-top: 15px;
 }
 
 .apropos
@@ -1047,4 +1049,3 @@ a:link, a:visited
 
 
 
-/*  <br/> et pas </br> et sinon remplacer les span par des h */
