@@ -193,7 +193,7 @@ a:link, a:visited
 
 .star
 {
-  margin-top: 20px;
+  margin-top: 10px;
   color: #0065FC;
 }
 
@@ -257,8 +257,11 @@ a:link, a:visited
 
 .gras
 {
+  display: flex;
   font-weight: bolder;
   color: black;
+  margin-bottom: -5px;
+
 }
 
 #aff
@@ -685,6 +688,8 @@ a:link, a:visited
     
   }
 
+
+
   .increase
   {
     margin-left: 350px;
@@ -708,6 +713,11 @@ a:link, a:visited
     height: 125px;
     margin-bottom: 5px;
     width: 250px;
+  }
+
+  .articles2 i
+  {
+    padding-top: 20px;
   }
 
   #mainactivite
