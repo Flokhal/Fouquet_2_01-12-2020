@@ -1,5 +1,3 @@
-
-
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
   display: block;
@@ -137,6 +135,7 @@ a:link, a:visited
 {
   padding: 15px;
   width: 300px;
+  margin-right: -5px;
 }
 
 #form
@@ -572,22 +571,22 @@ a:link, a:visited
     width: 200px;
   }
 
-.icone
-{
+  .icone
+  {
   
-  margin-top: -12px;
-  margin-bottom: -50px;
+    margin-top: -12px;
+    margin-bottom: -50px;
 
-}
+  }
 
-.icone1
-{
-  width: 20px;
-  padding-left: 20px;
-  margin-top: -12px;
+  .icone1
+  {
+    width: 20px;
+    padding-left: 20px;
+    margin-top: -12px;
 
 
-}
+  }
 
 
 
@@ -766,15 +765,17 @@ a:link, a:visited
   {
     color: white;
     background-color: #0065FC;
-    padding-top: 15px;
+    padding-top: 17px;
     padding-bottom: 17px;
-    padding-right: 15px;
-    padding-left: 10px;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 
+  }
+    #barre
+  {
+ 
+    margin-right: -10px;
   }
 }
 
