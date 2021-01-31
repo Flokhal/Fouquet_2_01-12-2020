@@ -138,6 +138,12 @@ a:link, a:visited
   margin-right: -5px;
 }
 
+#barre::placeholder
+{
+  color: black;
+  font-weight: bold;
+}
+
 #form
 {
   color: white;
