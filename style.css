@@ -1,3 +1,23 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
   display: block;
@@ -42,8 +62,9 @@ table {
 a:link, a:visited
 { 
  text-decoration:none; 
- color: #0065FC;
+ color: black;
 } 
+
 
 
 
@@ -83,6 +104,7 @@ a:link, a:visited
 #texth
 {
   margin-top: 50px;
+  margin-bottom: 10px;
   font-size: 30px;
   font-weight: bold;
 }
@@ -172,7 +194,7 @@ a:link, a:visited
 
   color: #0065FC; 
   padding: 15px; 
-  padding-left: 15px;
+  margin-left: -10px;
   margin-right: 15px;
   border-radius: 100%;
 
@@ -196,6 +218,16 @@ a:link, a:visited
   color: #0065FC;
 }
 
+.price
+{
+  margin-left: 10px;
+}
+
+.star1
+{
+  margin-left: 10px;
+}
+
 .star
 {
   margin-top: 10px;
@@ -205,6 +237,11 @@ a:link, a:visited
 .stargrey
 {
   color: grey;
+}
+
+#filtre
+{
+  margin-top: -40px;
 }
 
 .filtre1
@@ -218,11 +255,7 @@ a:link, a:visited
   padding-top: 10px;
   padding-bottom: 10px;
   margin-bottom: 15px;
-
-
 }
-
-
 
 .filtre1:hover
 { 
@@ -249,30 +282,24 @@ a:link, a:visited
   
 }
 
-.text 
+.price
 {
-  color: black;
-  padding-left: 10px;
+  margin-left: 10px;
 }
 
-.text2
-{
-  color: black;
-}
 
 .gras
 {
   display: flex;
   font-weight: bolder;
   color: black;
-  margin-bottom: -5px;
-
+  margin-left: 10px;
 }
 
 #aff
 {
-  margin-top: -80px;
-  margin-bottom: 50px;
+  margin-top: -60px;
+  margin-bottom: 5px;
   margin-left: 75px;
   font-weight: bold;
   font-size: 18px;
@@ -293,6 +320,8 @@ a:link, a:visited
 
 #heberpop1
 {
+  margin-top: 10px;
+  margin-bottom: 10px;
   padding-left: 40px;
   font-weight: bold;
   font-size: 30px;
@@ -317,9 +346,20 @@ a:link, a:visited
   
 }
 
+.gras2
+{
+  display: flex;
+  font-weight: bolder;
+  color: black;
+  flex-direction: column;
+
+}
+
+
+
 .increase
 {
-  margin-left: 240px;
+  margin-left: 190px;
   color: black;
 }
 
@@ -340,8 +380,8 @@ a:link, a:visited
   display: flex;
   flex-direction: column;
   padding-right: 10px;
-  width: 385px;
-  height: 275px;
+  width: 335px;
+  height: 250px;
   margin-right: 50px;
   margin-bottom: 50px;
   margin-left: 10px;
@@ -374,7 +414,23 @@ a:link, a:visited
   overflow: hidden;
   background-color: white;
   box-shadow: 1px 1px 20px lightgrey;
+  margin-bottom: 5px;
+  margin-left: 20px;
 }
+
+.poptext
+{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.price2
+{
+  margin-top: 10px;
+  margin-bottom: 35px;
+}
+
 .imagea
 {
  border: solid white 15px;
@@ -389,9 +445,9 @@ a:link, a:visited
 {
  display: flex;
  justify-content: space-between;
- margin-bottom: 50px;
- padding-bottom: 50px;
+ margin-bottom: 100px;
  margin-left: 50px;
+ margin-top: 10px;
 }
 
 .activite1
@@ -400,10 +456,11 @@ a:link, a:visited
   flex-direction: column;
   border-radius: 20px;
   overflow: hidden;
-  width: 500px;
-  height: 600px;
+  width: 400px;
+  height: 515px;
   box-shadow: 0px 1px 2px lightgrey;
   font-family: 'Raleway', sans-serif; 
+  padding-bottom: 15px;
  
 }
 
@@ -412,12 +469,13 @@ a:link, a:visited
   display: flex;
   flex-direction: column;
   width: 400px;
-  max-height: 288px;
+  max-height: 238px;
   margin-bottom: 25px;  
   border-radius: 20px;
   overflow: hidden;
   box-shadow: 0px 1px 2px lightgrey;
   font-family: 'Raleway', sans-serif; 
+  padding-bottom: 15px;
 }
 
 .image3
@@ -429,7 +487,15 @@ a:link, a:visited
   width: 100%;
   overflow: hidden;
   object-fit: cover;
+  margin-bottom: 10px;
 
+}
+
+.gras3
+{
+  font-weight: bolder;
+  margin-top: 10px;
+  margin-left: 20px;
 }
 
 #footer
@@ -460,6 +526,7 @@ a:link, a:visited
 #Activitees
 {
   font-size: 30px;
+  margin-top: 80px;
   margin-left: 50px;
   font-weight: bold;
   font-family: 'Raleway', sans-serif;
@@ -639,6 +706,11 @@ a:link, a:visited
 
   }
 
+  #price
+  {
+    color: black;
+  }
+
   #texth
   {
     margin-left: 25px;
@@ -727,6 +799,11 @@ a:link, a:visited
     padding-top: 20px;
   }
 
+  .price2
+  {
+    margin-bottom: 25px;
+  }
+
   #mainactivite
   {
     display: flex;
@@ -756,9 +833,13 @@ a:link, a:visited
   {
     display: flex;
     flex-direction: column;
-    padding-right: 100px;
+   
   }
 
+  .apropos
+  {
+    margin-top: 20px;
+  }
 
   #form
   {
