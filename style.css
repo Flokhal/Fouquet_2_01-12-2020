@@ -936,6 +936,8 @@ a:link, a:visited
   {
     border-bottom-style: solid;
     border-color: blue;
+    padding-top: 0px;
+    border-top: none;
     padding-bottom: 15px;
     color: blue;
   }
