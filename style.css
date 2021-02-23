@@ -107,6 +107,7 @@ a:link, a:visited
   margin-bottom: 10px;
   font-size: 30px;
   font-weight: bold;
+
 }
 
 #texth2
@@ -255,13 +256,16 @@ a:link, a:visited
   padding-top: 10px;
   padding-bottom: 10px;
   margin-bottom: 15px;
+  
+  transition: 600ms;
+ 
 }
 
 .filtre1:hover
 { 
-  background-color: green;
- 
+  background-color: #0065FC;
   color: white; 
+ 
 }
 
 #section1
@@ -282,12 +286,6 @@ a:link, a:visited
   
 }
 
-.price
-{
-  margin-left: 10px;
-}
-
-
 .gras
 {
   display: flex;
@@ -298,7 +296,7 @@ a:link, a:visited
 
 #aff
 {
-  margin-top: -60px;
+  margin-top: -30px;
   margin-bottom: 5px;
   margin-left: 75px;
   font-weight: bold;
@@ -321,7 +319,7 @@ a:link, a:visited
 #heberpop1
 {
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 35px;
   padding-left: 40px;
   font-weight: bold;
   font-size: 30px;
@@ -331,6 +329,7 @@ a:link, a:visited
 
 #heberpop2
 {
+  margin-top: 10px;
   padding-left: 20px;
   font-weight: bold;
   font-size: 30px;
@@ -355,24 +354,10 @@ a:link, a:visited
 
 }
 
-
-
 .increase
 {
   margin-left: 190px;
   color: black;
-}
-
-
-#articlesa
-{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-left: 5px;
-  margin-bottom: 50px;
-
-  
 }
 
 .articles
@@ -405,7 +390,7 @@ a:link, a:visited
 .articles2
 {
   display: flex;
-  margin-top: 50px;
+  margin-top: 40px;
   width: 500px;
   height: 150px;
   margin-right: 30px;
@@ -518,6 +503,7 @@ a:link, a:visited
 
 .apropos
 {
+  margin-top: 10px;
   font-weight: bolder;
   font-size: 20px;
 
@@ -622,6 +608,15 @@ a:link, a:visited
     margin-left: 20px;
   }
 
+  #textfiltre
+  {
+    margin-top: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    margin-left: 25px;
+  }
+
   #filtre p
   { 
 
@@ -670,6 +665,26 @@ a:link, a:visited
     padding-left: 20px;
   }
 
+  #form
+  {
+    display: none;
+  }
+
+  .loupe
+  {
+    color: white;
+    background-color: #0065FC;
+    padding-top: 15px;
+    padding-bottom: 17px;
+    padding-right: 15px;
+    padding-left: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+  }
+
   
 
   #filtre
@@ -680,6 +695,7 @@ a:link, a:visited
     font-weight: bold;
     margin-left: -50px;
     margin-top: auto;
+
 
   }
 
@@ -716,6 +732,7 @@ a:link, a:visited
     margin-left: 25px;
     font-size: 50px;
     font-weight: bold;
+    
   }
 
   #texth2
@@ -723,6 +740,7 @@ a:link, a:visited
     margin-left: 25px;
     margin-bottom: 50px;
     font-size: 25px;
+
   }
 
   #heberpop1
@@ -764,14 +782,14 @@ a:link, a:visited
     
     margin-top: 20px;
     order: 1;
+    padding-bottom: 50px;
     
   }
 
 
-
   .increase
   {
-    margin-left: 350px;
+    margin-left: 370px;
   }
 
 
@@ -779,11 +797,10 @@ a:link, a:visited
   .articles2
   {
     flex-wrap: wrap;
-    justify-content: center;
     width: 500px;
-    margin-left: 5px;
+    margin-left: 125px;
     margin-bottom: 10px;
-    margin-right: 5px;
+    
   }
 
   .articles2 .imagea
@@ -796,7 +813,7 @@ a:link, a:visited
 
   .articles2 i
   {
-    padding-top: 20px;
+    padding-top: 15px;
   }
 
   .price2
@@ -840,5 +857,278 @@ a:link, a:visited
   {
     margin-top: 20px;
   }
+
+}
+
+
+
+
+@media screen and (min-width: 800px) and (max-width: 1024px)
+{
+ 
+  #bloc_page
+  {
+    width: auto;
+  }
+
+  #nav
+  {
+    display: flex;
+    flex-wrap: wrap-reverse;
     
+
+  }
+
+  #body
+  {
+    padding: 2px;
+  }
+
+  #logo
+  { 
+    width: 200px;
+    margin-left: 20px;
+    margin-bottom: -50px;
+  } 
+
+  #header
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  #inscrire
+  {
+    order: 1;
+    margin-left: 800px;
+    margin-bottom: 150px;
+    font-weight: bold;
+    color: blue;
+    font-size: 25px;
+
+  }
+
+  .nav1
+  {
+    font-weight: 800;
+    font-size: 20px;
+    border-bottom-style: solid;
+    border-color: lightgrey;
+    color: black;
+    
+    padding-bottom: 50px;
+    padding-right: 180px;
+    padding-left: 180px;
+    margin-right: 0px; 
+  }
+
+  .nav1:hover
+  {
+    border-bottom-style: solid;
+    border-color: blue;
+    padding-bottom: 15px;
+    color: blue;
+  }
+
+
+  .tf
+  {
+    margin-left: 15px;
+  }
+
+  .tf1
+  {
+    margin-left: 35px;
+  }
+
+  .tf2
+  {
+    margin-left: -10px;
+  }
+
+  #filtre p
+  { 
+    padding-left: 50px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .filtre1
+  {
+    padding: 0px;
+    width: 250px;
+    font-size: 20px;
+    font-weight: bolder;
+    align-items: center;
+
+  }
+
+
+
+  #gps
+  {
+    margin-left: 50px;
+    padding-right: 15px;
+    padding-left: 20px;
+  }
+
+  #barre
+  {
+    
+    margin-bottom: 25px;
+  }
+
+  .loupe
+  {
+    display: none;
+  }
+
+  #filtre
+  {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+  }
+
+  #i
+  {
+    margin-top: 20px;
+  }
+
+
+  #hebergements 
+  {
+    flex-direction: column;
+
+    
+  }
+
+  #section1
+  {
+    display: flex;
+    max-height: 2000px;
+    order: 2;
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: white;
+    border-color: white;
+
+  }
+
+  #texth
+  {
+    margin-left: 25px;
+    font-size: 50px;
+    font-weight: bold;
+
+  }
+
+  #texth2
+  {
+    margin-left: 25px;
+    margin-bottom: 50px;
+    font-size: 25px;
+  }
+
+  #heberpop1
+  {
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+  .articlesh
+  {
+    
+    display: flex;
+    flex-direction: column;
+    margin-left: 220px;
+   
+  }
+
+  .articles
+  {
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 500px;
+    margin-left: 5px;
+    margin-bottom: 50px;
+    margin-right: 5px;
+    border-color: white;
+
+  }
+
+  #aff
+  {
+    margin-top: 50px;
+    margin-left: 200px;
+
+  }
+
+  #fond2
+  {
+    
+    margin-top: 20px;
+    order: 1;
+    
+  }
+
+  .increase
+  {
+    margin-left: 570px;
+  }
+
+
+
+  .articles2
+  {
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 700px;
+    margin-left: 125px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+  }
+
+  .articles2 .imagea
+  {
+    object-fit: cover;
+    height: 125px;
+    margin-bottom: 5px;
+    width: 450px;
+    margin-left: -50px;
+  }
+
+  #mainactivite
+  {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #Activitees
+  {
+    margin-top: 50px;
+  }
+
+  .activite1
+  {
+    height: 300px;
+    width: 90%;
+    margin-top: 20px;
+  }
+
+  .activite2
+  {
+    height: 300px;
+    width: 90%;
+    margin-top: 20px;
+  }
+
+  #footer
+  {
+    display: flex;
+    padding-right: 100px;
+  }
 }
