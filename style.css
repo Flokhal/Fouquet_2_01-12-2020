@@ -99,6 +99,10 @@ a:link, a:visited
 .nav1:hover
 {
   color: #0065FC;
+  border-top-style: solid;
+  border-color: #0065FC;
+  padding-top: 20px;
+
 }
 
 #texth
@@ -588,6 +592,8 @@ a:link, a:visited
   {
     border-bottom-style: solid;
     border-color: blue;
+    padding-top: 0px;
+    border-top: none;
     padding-bottom: 15px;
     color: blue;
   }
