@@ -165,6 +165,7 @@ a:link, a:visited
 {
   color: black;
   font-weight: bold;
+
 }
 
 #form
@@ -664,6 +665,7 @@ a:link, a:visited
     padding-right: 15px;
     padding-left: 20px;
   }
+  
 
   #form
   {
