@@ -829,6 +829,7 @@ a:link, a:visited
   padding-top: 20px;
   background-color:#F2F2F2;
   font-family: 'Raleway', sans-serif;
+  margin-left: -20px;
 }
 
 #footer a
@@ -896,6 +897,7 @@ a:link, a:visited
     font-weight: bold;
     color: blue;
     font-size: 25px;
+    margin-right: 20px;
 
   }
 
@@ -910,7 +912,7 @@ a:link, a:visited
     padding-bottom: 50px;
     padding-right: 120px;
     padding-left: 120px;
-    margin-right: 0px; 
+    transform: scale(1.3); 
   }
 
 
@@ -934,12 +936,12 @@ a:link, a:visited
 
   .tf1
   {
-    margin-left: -25px;
+    margin-left: 25px;
   }
 
   .tf2
   {
-    margin-left: 20px;
+    margin-left: 25px;
   }
 
   #textfiltre
@@ -957,27 +959,31 @@ a:link, a:visited
     padding-left: 50px;
     margin-right: 100px;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+
   }
 
   .filtre1
   {
+
     height: 25px;
     width: 300px;
     font-size: 20px;
     font-weight: bolder;
+    transform: scale(1.4);
+    margin-bottom: 70px;
+
   }
 
-  .filtre1:nth-child(2)
-  {
-    width: 200px;
-  }
+ 
 
   .icone
   {
   
     margin-top: -12px;
-    margin-bottom: -50px;
+    margin-bottom: -60px;
+    margin-left: -5px;
 
   }
 
@@ -994,11 +1000,16 @@ a:link, a:visited
 
   #gps
   {
-    margin-left: 50px;
-    padding-right: 15px;
-    padding-left: 20px;
+    margin-left: 80px;
+    padding-right: 70px;
+    padding-top: 25px;
+    padding-bottom: 23px;
   }
-  
+
+  #gps .fas
+  {
+    transform: scale(1.4);
+  }
 
   #form
   {
@@ -1010,25 +1021,30 @@ a:link, a:visited
     color: white;
     background-color: #0065FC;
     padding-top: 15px;
-    padding-bottom: 17px;
+    padding-bottom: 16px;
     padding-right: 15px;
     padding-left: 10px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     padding-left: 50px;
     padding-right: 50px;
+    transform: scale(1.45);
 
   }
 
-  
+  #barre
+  {
+    transform: scale(1.3);
+
+  }
 
   #filtre
   {
     display: flex;
-    flex-wrap: wrap;
+   
     font-size: 20px;
     font-weight: bold;
-    margin-left: -50px;
+   
     margin-top: auto;
 
 
@@ -1127,8 +1143,9 @@ a:link, a:visited
   {
     flex-wrap: wrap;
     width: 500px;
-    margin-left: 125px;
+    margin-left: 100px;
     margin-bottom: 10px;
+    transform: scale(1.1);
     
   }
 
