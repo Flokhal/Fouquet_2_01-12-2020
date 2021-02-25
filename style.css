@@ -358,6 +358,7 @@ ul {
   height: 100px;
   width: 200px;
   margin-bottom: -50px;
+  margin-top: 10px;
 
 } 
 
@@ -580,7 +581,7 @@ a:link, a:visited
   border: solid lightgrey 3px;
   border-left: solid white;
   border-radius: 25px;
-  margin-left: 30px;
+  margin-left: 50px;
   padding-right: 30px; 
   padding-top: 10px;
   padding-bottom: 10px;
@@ -910,7 +911,7 @@ a:link, a:visited
     color: black;
     
     padding-bottom: 50px;
-    padding-right: 120px;
+    padding-right: 100px;
     padding-left: 120px;
     transform: scale(1.3); 
   }
