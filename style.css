@@ -1109,12 +1109,6 @@ a:link, a:visited
 
   }
 
-  #aff
-  {
-    margin-top: 50px;
-
-  }
-
   #fond2
   {
     
@@ -1142,9 +1136,9 @@ a:link, a:visited
   }
 
   #fond2 .star
-{
-  margin-top: 10px;
-}
+  {
+    margin-top: 10px;
+  }
 
   .articles2 .imagea
   {
@@ -1222,11 +1216,7 @@ a:link, a:visited
 
   }
 
-  #body
-  {
-    padding: 2px;
-  }
-
+ 
   #logo
   { 
     width: 200px;
