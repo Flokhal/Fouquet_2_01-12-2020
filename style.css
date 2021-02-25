@@ -1202,7 +1202,12 @@ a:link, a:visited
   {
     display: flex;
     flex-direction: column;
-   
+  }
+
+  #footer li
+  {
+    transform: scale(1.3);
+    margin-left: 50px;
   }
 
   .apropos
