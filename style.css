@@ -365,7 +365,7 @@ ul {
 
 #body
 {  
-  margin-left: 20px;
+  /*margin-left: 20px;*/
   font-family: 'Raleway', sans-serif; 
 
 }
@@ -1503,6 +1503,7 @@ a:link, a:visited
   }
 
 
+
   #nav
   {
     display: flex;
@@ -1869,6 +1870,8 @@ a:link, a:visited
   #footer
   {
     display: flex;
+    margin-left: 0px;
+    padding-right: 0px;
   }
 
   #footer li
@@ -1880,7 +1883,13 @@ a:link, a:visited
   .apropos
   {
     margin-top: 20px;
+    width: 80%;
 
+  }
+
+  #footer a
+  {
+    width: 80%;
   }
 
   
