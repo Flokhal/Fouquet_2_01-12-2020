@@ -861,7 +861,7 @@ a:link, a:visited
 
 
 
-@media screen and (min-width: 800px) and (max-width: 1024px)
+@media screen and (min-width: 1000px) and (max-width: 1024px)
 {
  
   #bloc_page
@@ -1129,7 +1129,7 @@ a:link, a:visited
   }
 }
 
-@media screen and (min-width: 360px) and (max-width: 800px)
+@media screen and (min-width: 360px) and (max-width: 1000px)
 {  
 
   #bloc_page
@@ -1450,7 +1450,7 @@ a:link, a:visited
   .articles2
   {
     flex-wrap: wrap;
-    width: auto;
+    
     margin-left: -5px;
     margin-bottom: 10px;
     transform: scale(0.9);
@@ -1458,7 +1458,11 @@ a:link, a:visited
     
   }
 
-  
+  .apop
+  {
+    display: flex;
+    justify-content: center;
+  }
 
   #fond2 .star
   {
