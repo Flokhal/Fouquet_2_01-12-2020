@@ -1311,13 +1311,19 @@ a:link, a:visited
 
   }
 
+  #centersearch
+  {
+    display: flex;
+    justify-content: center;
+  }
+
   #filtre
   {
     display: flex;
    
     font-size: 15px;
     font-weight: bold;
-   
+    justify-content: center;
     margin-top: auto;
 
 
@@ -1379,9 +1385,7 @@ a:link, a:visited
   {
     margin-bottom: 50px;
     font-weight: bold;
-    margin-left: 50px;
-    
-   
+    margin-left: 25px;
   }
 
   .articlesh
@@ -1410,6 +1414,7 @@ a:link, a:visited
     flex-wrap: wrap;
     justify-content: center;
     width: auto;
+    max-width: 290px;
     margin-left: 30px;
     margin-bottom: 50px;
     
